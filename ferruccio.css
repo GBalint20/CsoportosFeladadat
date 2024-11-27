@@ -15,9 +15,7 @@ body {
     margin-bottom: 15px;
 }
 
-header {
 
-}
 
 nav {
     text-align: center;
@@ -29,9 +27,8 @@ nav {
     list-style-type: none;
 }
 
-section{
-    
-}
+
+
 
 
 h2 {
@@ -43,8 +40,10 @@ img {
     max-height: 200px;
     border-bottom: 2px solid white;
 }
-p {
 
+
+.eletefelsorolas {
+    list-style-type: disc;    
 }
 
 .linkek {
