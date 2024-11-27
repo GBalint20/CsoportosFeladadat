@@ -1,9 +1,23 @@
+html {
+    background-color: #7b7d7d;
+}
+
 body {
-    background-image: url(Kepek/tortenetbckground.jpg);
-    background-size: cover;
-    background-position: center;
+    width: 1000px;
+    max-width: 100%;
+    background-color: #ecf0f1;
     margin: auto;
     height: 100vh;
-    color: whitesmoke;
+    color: #2c3e50;
     font-family: 'Monaco', 'Courier New', monospace;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tartalom {
+
+    text-align: center;
+    background-color:;
 }
