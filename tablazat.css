@@ -14,10 +14,11 @@ h1 {
     text-align: center;
     border-radius: 8px;
     animation:
-        fadeInAndSlideUp 1s ease-out,
-        colorChange 3s linear infinite,
-        glowAnimation 1.5s ease-in-out infinite;
+            fadeInAndSlideUp 1s ease-out,
+            colorChange 3s linear infinite,
+            glowAnimation 1.5s ease-in-out infinite;
     animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 div {
@@ -39,6 +40,8 @@ article {
     0 0 15px #b9b1a4,
     0 0 20px #b9b1a4,
     0 0 30px#b9b1a4;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slideUp {
