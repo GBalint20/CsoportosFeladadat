@@ -24,16 +24,9 @@ nav {
     margin-bottom: 20px;
  }
 
- ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0;
-    margin: 30px 0px 30px 0px;
- }
 
  li {
     list-style-type: none;
-    text-align: center;
 }
 
 section{
@@ -51,8 +44,16 @@ img {
     border-bottom: 2px solid white;
 }
 p {
-    
+
 }
+
+.linkek {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+ }
+
 
 .linkstyle {
     text-decoration: none;
