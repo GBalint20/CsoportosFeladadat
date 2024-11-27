@@ -13,6 +13,11 @@ h1 {
     padding: 10px;
     text-align: center;
     border-radius: 8px;
+    animation:
+        fadeInAndSlideUp 1s ease-out,
+        colorChange 3s linear infinite,
+        glowAnimation 1.5s ease-in-out infinite;
+    animation-delay: 1s;
 }
 
 div {
@@ -22,7 +27,65 @@ div {
 }
 
 article {
+    animation: fadeIn 1s ease-out;
+    animation-delay: 1s;
     text-align: center;
     color: whitesmoke;
+    font-size: 23px;
+    color: whitesmoke;
+    text-shadow:
+    0 0 5px #b9b1a4,
+    0 0 10px #b9b1a4,
+    0 0 15px #b9b1a4,
+    0 0 20px #b9b1a4,
+    0 0 30px#b9b1a4;
 }
 
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes glowAnimation {
+    0% {
+        text-shadow: 
+            0 0 5px #ff7b00, 
+            0 0 10px #ff7b00, 
+            0 0 15px #ff7b00, 
+            0 0 20px #ff7b00, 
+            0 0 30px #ff7b00;
+    }
+    50% {
+        text-shadow: 
+            0 0 10px #ff7b00, 
+            0 0 20px #ff7b00, 
+            0 0 30px #ff7b00, 
+            0 0 40px #ff7b00, 
+            0 0 50px #ff7b00;
+    }
+    100% {
+        text-shadow: 
+            0 0 5px #ff7b00, 
+            0 0 10px #ff7b00, 
+            0 0 15px #ff7b00, 
+            0 0 20px #ff7b00, 
+            0 0 30px #ff7b00;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
