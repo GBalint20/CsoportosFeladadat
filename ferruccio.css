@@ -15,18 +15,50 @@ body {
     margin-bottom: 15px;
 }
 
-.tartalom {
+header {
 
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+ }
+
+ li {
+    list-style-type: none;
     text-align: center;
 }
 
-h1 {
-    text-decoration: underline;
+section{
+
+}
+
+
+h2 {
     text-align: center;
 }
+
 img {
     max-width: 300px;
     max-height: 200px;
     border-bottom: 2px solid white;
 }
 
+p {
+    
+}
+
+.linkstyle {
+    text-decoration: none;
+}
+
+.tartalom {
+    text-align: center;
+}
