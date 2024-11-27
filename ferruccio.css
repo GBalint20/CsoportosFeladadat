@@ -62,3 +62,6 @@ p {
 .tartalom {
     text-align: center;
 }
+@media (max-width: 800px) {
+ 
+}
