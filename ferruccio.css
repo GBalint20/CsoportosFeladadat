@@ -21,14 +21,9 @@ nav {
     margin-bottom: 20px;
  }
 
-
  li {
     list-style-type: none;
 }
-
-
-
-
 
 h2 {
     text-align: center;
@@ -88,5 +83,61 @@ ul {
     text-align: center;
 }
 @media (max-width: 800px) {
+    body {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .ferruccio {
+        grid-template-columns: 1fr; /* Képek és szöveg egymás alatt */
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%; /* Kép teljes szélességet elfoglalja */
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin: auto;
+        padding: 0;
+    }
+
+    .linkek {
+        grid-template-columns: 1fr; /* Navigáció egy oszlopos elrendezése */
+        text-align: center;
+    }
+
+    .linkstyle {
+        display: block; /* Linkek egymás alatt jelenjenek meg */
+        margin-bottom: 10px;
+    }
+
+    .tartalom {
+        text-align: left;
+        padding: 5px;
+    }
  
+}
+
+@media (max-width: 500px) {
+    h2, h3 {
+        font-size: 1.2rem; /* Fejlécek kisebb mérete */
+    }
+
+    .ferruccio {
+        grid-template-columns: 1fr; /* Szöveg és kép egy oszlopban */
+    }
+
+    img {
+        margin: auto;
+        display: block;
+        max-width: 90%;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
 }
