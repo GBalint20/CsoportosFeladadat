@@ -1,6 +1,11 @@
 body {
     background-image: url(header_Terzo-Millennio.webp);
     background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -9,8 +14,10 @@ h1 {
     color: rgb(248, 157, 73);
     font-size: 48px;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(169, 169, 169, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     border-radius: 8px;
     animation:
@@ -42,6 +49,84 @@ article {
     0 0 30px#b9b1a4;
     opacity: 0;
     animation-fill-mode: forwards;
+}
+
+article p {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 5px #b9b1a4, 0 0 10px #b9b1a4;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #ff7b00;
+}
+
+.island {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.island img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.island h2 {
+    font-size: 28px;
+    color: #ff7b00;
+}
+
+.island p {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.island a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff7b00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.island a:hover {
+    background-color: #ff5000;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    color: #fff;
+}
+
+footer a {
+    color: #ff7b00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @keyframes slideUp {
