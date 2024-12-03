@@ -147,4 +147,54 @@ ul {
         padding-bottom: 15px;
     }
     
+    ul {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    li {
+    margin: 5px;
+    }
+
+    .linkstyle {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .szoveg, .kozep {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
  }
+
+ @media (max-width: 500px) {
+    body {
+        background-size: contain;
+        background-position: top;
+    }
+
+    .kozep {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        line-height: 1.5;
+        gap: 20px;
+    
+    }
+
+    .linkstyle {
+        padding: 5px;
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    p, .cim1, .cim2, .cim3 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
