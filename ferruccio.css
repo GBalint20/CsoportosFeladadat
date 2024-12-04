@@ -105,6 +105,10 @@ ul {
         padding: 0;
     }
 
+    .kep {
+        margin-left: 15px;
+    }
+    
     .linkek {
         grid-template-columns: 1fr;
         text-align: center;
