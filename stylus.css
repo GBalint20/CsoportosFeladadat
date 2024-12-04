@@ -105,3 +105,14 @@ p {
     }
 
 }
+
+@media (max-width: 300px) {
+    .linkstyle {
+        border: none;
+    }
+
+    .linkstyle:hover {
+        border: none;
+        box-shadow: none;
+    }
+}
